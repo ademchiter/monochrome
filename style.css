@@ -1,8 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.blue{
+
+background-color: blue;
+}
+
+.red{
+
+background-color: red;
+}
+
 .section1{
 background-image: url("bg-image-hero.png"); /* image de fond de la section 1 */
-
+height: 70vh; /*  indique une hauteur de 70% de la hauteur de mon écran */
+background-position: center;
+background-repeat: no-repeat; /* ne pas répéter l'image */
+background-size: cover; /* l'image à une dimension qui couvre l'intégralité de son parent */
 }
 
 .txt-white{
     color:white;
+}
+
+.supp-puce{
+    list-style-type: none;  /* supprimer les puces d'une liste */
+}
+
+a{
+
+text-decoration: none; /* retirer le soulignement */
+color:black;
+}
+
+.large33{
+
+    width: 33%;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+}
+
+.hauteur70{ 
+height: 70vh; /*  indique une hauteur de 70% de la hauteur de mon écran */
+}
+
+.large60{
+
+    width: 60%;
+    
 }
